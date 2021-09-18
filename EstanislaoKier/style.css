@@ -1,0 +1,271 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;    
+}
+#home {
+background-image: url('images/night.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#amenities {
+    background-image: url('images/amenities.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#roomrate {
+    background-image: url('images/roomrate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#reservation {
+    background-image: url('images/reservation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aboutus {
+    background-image: url('images/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navigation {
+    width: 100%;
+    height: 70px;
+    margin: 0 0 30px;
+    background-color: black;
+}
+ul {
+    list-style:none;
+    margin:0;
+    padding:25px;
+    overflow:hidden;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+}
+ul.logo, ul.logo1, ul.header {
+    display: inline-block;
+}
+ul a {
+    padding:10px 20px;
+    font-family:'Impact';
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+#active {
+    color: black;
+    background-color: #ff9100;
+    padding: 50px 20px;
+    margin:auto;
+}
+ul a:hover {
+    color: #ff9100;
+    transition: ease-in 0.5s;
+}
+.logo {
+    float: left;
+    color: white;
+    font-family:'Impact';
+    font-size:25px;
+}
+#logo1 {
+    color: black;
+    background-color: #ff9100;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.header{
+    float: right;
+}
+#title {
+    text-align:center;
+    margin:auto;
+    padding: 60px;
+    font-family:'Franklin Gothic';
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+#body {
+    color: white;
+    text-align: center;
+    font-family: 'Impact, fantasy';
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 750px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1, h2{
+    -webkit-text-stroke: black 0px;
+    font-family: 'sans-serif';
+    display:block;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+hr {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+br {
+    margin: 5px;
+}
+#footer {
+    background-color: black;
+    bottom: 0px;
+    font-size: 20px;
+    font-family: Arial;
+    left: 0;
+    color: white;
+    position: fixed;
+    text-align:center;
+    margin: auto;
+    width: 100%;
+}
+#button {
+    text-decoration: none;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    left: 44%;
+    bottom: 35%;
+    margin: auto;
+    padding: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: black;
+    border-radius: 16px;
+    cursor: pointer;
+}
+#button:hover {
+    color:black;
+    transition: ease-in 0.3s;
+    background-color: #ff9100;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    height: 600px;
+    border-radius: 15px;
+}
+form ul {
+    list-style-type: disc;
+    text-align:left;
+    background-color: rgba(0, 0, 0, 0);
+}
+#form:default {
+text-align:center;
+}
+#h1amenities{
+    margin: auto;
+    padding: 20px 0 30px;
+    background-color: #ff9100;
+    color:black;
+
+}
+.h2amenities{
+    text-align: left;
+    margin: 15px 0 10px 50px;
+    font-family: 'sans-serif';
+    font-size: 30px;
+    color: #ff9100;
+}
+.amenitieslist {
+    padding: 0 0 10px 50px;
+    font-style: italic;
+}
+hr.h2amenitieshr {
+    padding: 0 5px 0 5px;
+    margin: 10px 50px;
+    text-align: left;
+}
+#tblroomrate {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 60%;
+    border: 5px solid #ff9100;
+}
+th, td {
+    padding: 10px;
+}
+#tblroomrateth {
+    font-size: 25px;
+    color: #ff9100;
+}
+td {
+    font-size: 30px;
+}
+.tblroomratetd1st {
+    color: #ff9100;
+}
+select:invalid {
+    color:gray;
+}
+#reserve {
+    width:auto;
+    height: 100%;
+    border-color: #ff9100;
+    border: solid 5px #ff9100;
+    font-family:'Franklin Gothic';
+    width: 1000px;
+    height: 500px;
+    text-align:center;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+#reserveh2 {
+    text-align: center;
+    margin:auto;
+    padding: 20px 40px;
+    width: auto;
+    background-color: #ff9100;
+    color: black;
+}
+#label {
+    text-align: left;
+    padding:20px 0 0 40px;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+#submit {
+    margin: 10px;
+    text-decoration: none;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+    bottom: 430px;
+    left: 900px;
+    position:absolute;
+}
+#submit:hover {
+    background-color: #ff9100;
+    color: black;
+}
+#labels {
+    color: #ff9100;
+}
+#aboutus1 {
+    text-align: center;
+    width: 400px;
+    padding: 20px 50px;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border:5px solid #ff9100;
+}
